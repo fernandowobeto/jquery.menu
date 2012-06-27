@@ -1,0 +1,27 @@
+ul.menu {position:relative;zoom:1;z-index:10; padding:2px 2px 2px 2px;list-style:none;margin:0px; font-family:Verdana; font-size:11px;	text-decoration:none;	text-align:left;color:#555;}
+ul.menu .divisor{display:block;font-size:1px;border-width:0px;border-style:solid;position:relative;z-index:1;}
+ul.menu .divisor_v{float:left;width:0px;}
+ul.menu .divisor_h{border-top-width:1px;	margin:4px 0px 4px 0px;	border-color:#BFBFBF;}
+ul.menu .divisor_v{border-left-width:1px;	height:15px;	margin:4px 2px 0px 2px;	border-color:#AAAAAA;}
+
+ul.menu .titulo{display:block;cursor:default;white-space:nowrap;position:relative;z-index:1;cursor:default;	padding:3px 0px 3px 4px;	color:#444444;	font-family:arial;	font-size:11px;	font-weight:bold;}
+ul.menu a, .menu li {float:left;display:block;white-space:nowrap;position:relative;z-index:1;}
+ul.menu ul a, .menu ul li {float:none;}
+ul.menu li {z-index:auto;}
+ul.menu ul {display:none;left:auto;position:absolute;z-index:10;top:100%;padding:5px; margin:-2px 0px 0px 0px;	background-color:#F7F7F7;	border-width:1px;	border-style:solid;	border-color:#DADADA;	-moz-box-shadow:2px 2px 4px #555;}
+ul.menu > ul {list-style:none;padding:0px;padding:10px;	margin:-2px 0px 0px 0px;	background-color:transparent;	border-style:none;}
+ul.menu li a {float:none;}
+
+
+ul.menu ul li:hover > ul{top:0px;left:100%;}
+ul.menu ul li a.menuDesativado{ color:#CCC !important;}
+ul.menu ul li:hover > a.menuDesativado{background-color:#F7F7F7 !important;}
+ul.menu > li:hover > a.sub_menu{ -moz-border-radius: 4px 4px 0px 0px;}
+ul.menu li:hover a{ cursor:pointer;}
+ul.menu > li > ul li:hover a{ -moz-border-radius: 2px;}
+ul.menu li ul li a.sub_menu{ background-image:url(../imgs/setaDireita.gif); background-repeat:no-repeat; background-position:right; cursor:pointer;}
+ul.menu li:hover > a{background-color:#999999;	color:white;}
+
+
+ul.menu a{padding:5px 4px 5px 5px;}
+ul.menu ul a{padding:3px 12px 3px 5px;	background-color:transparent;	border-width:0px;	border-style:none;}
