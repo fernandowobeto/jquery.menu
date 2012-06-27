@@ -19,7 +19,7 @@ ul.menu ul li:hover > a.menuDesativado{background-color:#F7F7F7 !important;}
 ul.menu > li:hover > a.sub_menu{ -moz-border-radius: 4px 4px 0px 0px;}
 ul.menu li:hover a{ cursor:pointer;}
 ul.menu > li > ul li:hover a{ -moz-border-radius: 2px;}
-ul.menu li ul li a.sub_menu{ background-image:url(../imgs/setaDireita.gif); background-repeat:no-repeat; background-position:right; cursor:pointer;}
+ul.menu li ul li a.sub_menu{ background-image:url(imagens/setaDireita.gif); background-repeat:no-repeat; background-position:right; cursor:pointer;}
 ul.menu li:hover > a{background-color:#999999;	color:white;}
 
 
